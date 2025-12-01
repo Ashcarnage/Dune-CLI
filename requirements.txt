@@ -1,0 +1,13 @@
+google-auth
+google-auth-oauthlib
+requests
+rich
+groq
+textual
+rich-gradient
+google-generativeai
+googlesearch-python
+rich
+googlesearch-python
+cheap_repr
+snoop
