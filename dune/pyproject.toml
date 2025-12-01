@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dune-cli"
+version = "1.0.0"
+authors = [
+  { name="DUNE Project", email="dune@example.com" },
+]
+description = "A reverse-engineered Python clone of the Gemini CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "rich",
+    "textual",
+    "httpx",
+    "google-generativeai",
+    "groq",
+    "python-dotenv",
+    "pyyaml",
+    "toml",
+    "GitPython",
+    "pathspec",
+    "tqdm",
+    "py-cpuinfo",
+    "psutil",
+    "aiofiles",
+    "docker",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/example/dune"
+"Bug Tracker" = "https://github.com/example/dune/issues"
+
+[project.scripts]
+dune-cli = "dune.advanced_ui:run_advanced_ui" 

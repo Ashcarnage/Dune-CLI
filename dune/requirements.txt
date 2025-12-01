@@ -1,0 +1,6 @@
+google-auth
+google-auth-oauthlib
+requests
+rich
+groq
+textual
