@@ -141,7 +141,3 @@ dune/
 **Module not found errors**
 - Ensure all dependencies are installed: `pip install -r requirements.txt`
 - Make sure you're running from the correct directory
-
-## License
-
-[Add your license information here]
